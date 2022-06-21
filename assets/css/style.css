@@ -1,169 +1,96 @@
 * {
-  box-sizing: border-box;
-  margin:  0;
-  padding: 0;
-
+  background-color: white;
+}
+.navbar {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
 }
 
-body {
-  background-color: rgb(40, 40, 40);
-}
-
-/* Body / INSIDE HEADER */
-h1 {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  font-size: 200%;
-  padding: 1%;
-}
-
-.links {
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
   display: flex;
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  font-size: 100%;
-  padding: 1%;
-}
-
-/* the whole body including topics, images sentences */
-.container {
-  max-width: 98%;
-  margin: 0 5%;
-  padding-top: 10%;
-  flex-wrap: wrap;
-}
-
-/* Topics */
-
-h2 {
-  width: 30%;
-  border-right: 4px solid red;
-  font-size: 200%;
-}
-
-{
-  width: 70%;
-  padding-right: 30px;
-}
-
-
-
-
-
-
-
-
-
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: aliceblue;
-}
-
-header {
-  text-align: center;
-  background-color: lightblue;
-  padding: 32px 0;
-}
-
-h1 {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  color: navy;
-}
-
-
-.columnright > p {
-  width: 70%;
-  padding-right: 30px;
-}
-
-.topright {
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  font-size: 200%;
-  color: navy;
-}
-
-.work {
-  display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
-  max-width: 80%;
+  padding: 1.5 rem 3.5 rem;
 }
 
-main {
-  width: 70%;
-  padding-left: 30px;
+a {
+  color: black;
 
+  font-weight: 100;
 }
 
-.container {
-  max-width: 98%;
-  margin: 0 5%;
+#intro {
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  margin-top: 1%;
+  padding: 3%;
+  font-size: 150px;
 }
 
-.columnleft {
-  width: 30%; 
-  border-right: 4px solid lightcoral;
+#title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.columnright {
-  width: 70%;
-  padding-right: 30px;
+h1,
+#aboutme,
+.work,
+.contactme {
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 1%;
+  padding: 1.5%;
+  font-weight: 100;
 }
 
-.box4 > img {
-
+.about {
+  padding: 1.5%;
+  font-weight: 100;
+  margin-top: 1%;
 }
 
-ul {
-  text-align: right;
-  font-size: 100%;
-  color: navy;
+.work-port {
+  display: flex;
+  justify-content: center;
+  padding: 1.5%;
+  font-weight: 100;
+}
+h3,
+li {
+  padding: 2.5%;
+  font-weight: 100;
+  list-style: none;
 }
 
-@media screen and (max-width: 760px); {
-  .box {
-    justify-content: center;
-    width: 95%;
+.headshot {
+  display: flex;
+  justify-content: center;
+}
+
+a:hover,
+.contactme:hover,
+.about:hover,
+.work:hover {
+  color: lightblue;
+}
+
+li .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media screen and (min-width: 480px) {
+  :root {
+    background-color: lightskyblue;
   }
 }
-
-
-/* .image-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.image {
-  padding: 0.5cm;
-}
-
-.image > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 992px) {
-}
-
-@media only screen (max width: 768px) {
-.row {
-    display: block;
-}
-} */ */
